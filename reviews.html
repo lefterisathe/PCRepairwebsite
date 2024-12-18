@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reviews - PC Repair & Build</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav class="navbar">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="services.html">Our Services</a></li>
+      <li><a href="reviews.html">Reviews</a></li>
+      <li><a href="contact.html">Contact Us</a></li>
+    </ul>
+  </nav>
+  <main>
+    <h1>Customer Reviews</h1>
+    <p>We value your feedback! Please leave your review below:</p>
+
+    <!-- Form for submitting reviews -->
+    <form action="https://formspree.io/f/{your_form_id}" method="POST" class="review-form">
+      <label for="review">Your Review:</label>
+      <textarea id="review" name="review" placeholder="Write your review here..." required></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+    <!-- Section to display reviews -->
+    <div id="reviews-section" class="reviews-section">
+      <h2>Submitted Reviews</h2>
+      <!-- The reviews will now be submitted to Formspree -->
+    </div>
+  </main>
+</body>
+</html>
